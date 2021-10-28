@@ -56,14 +56,14 @@
 # print(len(line.replace("Python", "C")))
 
 # quiz 3 New version
-url = "https://naver.com"
-if url[4] == "s":
-    modi_url = url.replace("https://", "")
-else : 
-    modi_url = url.replace("http://", "")
-modi2 = modi_url[0:modi_url.index(".")]
-password = modi2[:3] + str(modi2.count("e")) + "!"
-# password = modi2[:3] + str(modi2.count("e")), "!" # 이렇게 '콤마'로 묶어서 넣어두니 아예 배열 처럼 인식을 해버린다..! 
-print(modi_url)
-print(modi2)
-print(password)
+# url = "https://naver.com"
+# if url[4] == "s":
+#     modi_url = url.replace("https://", "")
+# else : 
+#     modi_url = url.replace("http://", "")
+# modi2 = modi_url[0:modi_url.index(".")]
+# password = modi2[:3] + str(modi2.count("e")) + "!"
+# # password = modi2[:3] + str(modi2.count("e")), "!" # 이렇게 '콤마'로 묶어서 넣어두니 아예 배열 처럼 인식을 해버린다..! 
+# print(modi_url)
+# print(modi2)
+# print(password)
