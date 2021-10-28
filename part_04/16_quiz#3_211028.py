@@ -16,3 +16,16 @@ my_str = url.replace("http://","") # 규칙 1
 my_str = my_str[:my_str.index(".")] # 규칙 2
 password = my_str[:3]+str(len(my_str))+str(my_str.count("e"))+"!"
 print("{0} 의 비밀번호는 {1} 입니다.".format(url, password))
+
+# quiz 3 New version
+url = "https://www.notion.so/ryu93notion/6-806e7fc28f6540cc81ae048540676469"
+if url[4] == "s":
+    modi_url = url.replace("https://", "")
+else : 
+    modi_url = url.replace("http://", "")
+modi2 = modi_url[0:modi_url.index(".")]
+password = modi2[:3] + str(modi2.count("e")) + "!"
+# password = modi2[:3] + str(modi2.count("e")), "!" # 이렇게 '콤마'로 묶어서 넣어두니 아예 배열 처럼 인식을 해버린다..! 
+#print(modi_url)
+#print(modi2)
+print(password)
