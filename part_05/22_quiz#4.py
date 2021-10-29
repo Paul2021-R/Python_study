@@ -24,6 +24,7 @@ Quiz) 당신의 학교에서는 파이썬 코딩 대회를 주최한다.
 
 from random import * 
 
+# 1번 내가 생각해서 구현한 방법
 id = range(1, 21)
 id = list(id)
 print(" -- 당첨자 발표 -- ")
@@ -36,7 +37,7 @@ print("치킨 당첨자 : "+str(i[0]))
 print("커피 당첨자 : "+str(sample(id, 3)))
 print(" -- 축하합니다 -- ")
 
-
+# 2번 저자가 구현한 방법
 users = range(1, 21)
 users = list(users)
 shuffle(users)
