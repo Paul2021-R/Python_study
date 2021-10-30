@@ -19,7 +19,7 @@ from random import *
 total = 0
 
 for customer in range(1, 51):
-    time = int((random() * 46)+5)
+    #time = int((random() * 46)+5) #위 아래 명령 모두 동일한데, 일반적으로 쓰기엔 randrange가 훨씬 편한 것 같다. 
     time = randrange(5, 50)
     if time <= 15:
         print("[O] {0}번째 손님 (소요시간 : {1}분)".format(customer, time))
