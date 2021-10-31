@@ -57,6 +57,7 @@ all.append(h3)
 #      i += 1
 # print("총 {0}대의 매물이 있습니다.".format(str(i)))
 print("총 {0}대의 매물이 있습니다.".format(len(all)))
+# 저자 작성 버전, 이쪽이 더 심플하다. 
 
 for house in all:
     house.show_detail()
