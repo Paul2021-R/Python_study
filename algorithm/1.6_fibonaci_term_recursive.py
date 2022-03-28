@@ -5,5 +5,5 @@ def fib(n):
         return fib(n - 1) + fib(n - 2)
 
 
-for i in range(100):
+for i in range(40):
     print(fib(i), end=" ")
