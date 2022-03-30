@@ -16,4 +16,4 @@ def binsearch(n, S, x):
 S = [-1, 1, 5, 6, 7, 8, 10, 11, 14]
 print("s : ", S)
 location = binsearch(9, S, 8)
-print("location : ", location)
+print("location x : ", location)
