@@ -2,6 +2,7 @@ def merge2(S, low, mid, high):
     U = []
     i = low
     j = mid + 1
+    print("1. changing(while) : ", S)
     while i <= mid and j <= high:
         if S[i] < S[j]:
             U.append(S[i])
@@ -15,6 +16,7 @@ def merge2(S, low, mid, high):
         U += S[j : high + 1]
     for k in range(low, high + 1):
         S[k] = U[k - low]
+    print("2. changing(while) : ", S)
 
 
 # 결국 U[0] 부터 들어가고, U 는 정렬이 된 리스트이니 S U 두개로 공간이 절약된다. 따라서 추가적 원소 수를 대략 n 개로 절약 할 수 있다.
